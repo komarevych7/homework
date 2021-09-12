@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Task5 {
     public static void main(String[] args) {
-        int summ = 0;
+        float summ = 0;
 
         Scanner scan = new Scanner(System.in);
         System.out.println("Enter array size");

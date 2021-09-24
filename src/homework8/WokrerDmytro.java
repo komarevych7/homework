@@ -11,5 +11,7 @@ public class WokrerDmytro {
         System.out.println("First our worker is " + workerName + ". He is " + workerAge + " years old. Work on"
                 + workerPosition + " position with " + workerSalary + "$ salary");
 
+        System.out.println(worker1.toString());
+
     }
 }

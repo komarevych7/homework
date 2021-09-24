@@ -15,6 +15,10 @@ public class Worker {
     }
 
     public Worker (){
+        name = "Gordon";
+        age = 18;
+        position = "trudyaga";
+        salary = 10;
     }
 
     public String getName() {
@@ -47,6 +51,16 @@ public class Worker {
 
     public void setSalary (int salary) {
         this.salary = salary;
+    }
+
+    @Override
+    public String toString() {
+        return "Worker{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                ", position='" + position + '\'' +
+                ", salary=" + salary +
+                '}';
     }
 
 }

@@ -5,7 +5,5 @@ public class ColorGhost {
 
         Ghost ghost = new Ghost();
         System.out.println(ghost.getColor());
-        System.out.println(ghost.getColor());
-        System.out.println(ghost.getColor());
     }
 }

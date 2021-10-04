@@ -8,6 +8,9 @@ public class Dog extends Animal{
         super(food, location);
         this.breed = breed;
     }
+    public void sleep() {
+        System.out.println("Sweet dreams animal. Zzzzzz");
+    }
 
     public void eat() {
         System.out.println("Dog eats bones");

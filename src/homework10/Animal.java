@@ -17,9 +17,7 @@ public abstract class Animal {
         System.out.println("Animal make voice");
     }
 
-    public void sleep() {
-        System.out.println("Sweet dreams animal. Zzzzzz");
-    }
+    public abstract void sleep();
 
     public String getFood() {
         return food;

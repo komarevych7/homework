@@ -9,6 +9,10 @@ public class Cat extends Animal{
         this.age = age;
     }
 
+    public void sleep() {
+        System.out.println("Sweet dreams animal. Zzzzzz");
+    }
+
     public void eat() {
         System.out.println("Cat eats fish");
     }

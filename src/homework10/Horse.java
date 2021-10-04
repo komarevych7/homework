@@ -9,6 +9,10 @@ public class Horse extends Animal {
         this.heeled = heeled;
     }
 
+    public void sleep() {
+        System.out.println("Sweet dreams animal. Zzzzzz");
+    }
+
     public void eat() {
         System.out.println("Horse eat grass");
     }

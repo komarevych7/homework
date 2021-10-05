@@ -10,6 +10,6 @@ public class Guitar implements Instuments{
 
     @Override
     public void play() {
-        System.out.println("Guitar pay with " + numberOfStrings + " strings.");
+        System.out.println("Guitar pay " + KEY + " with " + numberOfStrings + " strings.");
     }
 }

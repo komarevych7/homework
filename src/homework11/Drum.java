@@ -10,6 +10,6 @@ public class Drum implements Instuments{
 
     @Override
     public void play() {
-        System.out.println("Drum play. Size is: " + size);
+        System.out.println("Drum play " + KEY + ". Size is: " + size);
     }
 }

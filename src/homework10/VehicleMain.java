@@ -32,8 +32,22 @@ public class VehicleMain {
         System.out.println("Is helicopt1 == helicopt2: " + equal);
 
         Vehicle car2 = new Car(300 , "tesla", "sedan", "auto");
+        Car car3 = new Car(100, "lada", "coupe", "mechanix");
         System.out.println("Is car equal car2: " + helicopt1.equals(helicopt2));
         boolean equal2 = helicopt1 == helicopt2;
         System.out.println("Is car == car2: " + equal2);
+
+        System.out.println("");
+        System.out.println("Interfaces:");
+
+        //Interfaces
+        roadBike.buyBike();
+        roadBike.buyBike(2);
+        roadBike.navigation();
+        BicycleInterface.bikeInfo();
+        VehicleInterface.navigationDescription();
+        car3.buyNavigator();
+        car3.navigationPrice();
+        car3.navigationPrice(7);
     }
 }

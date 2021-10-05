@@ -1,6 +1,6 @@
 package homework10;
 
-public class Car extends Vehicle{
+public class Car extends Vehicle implements VehicleInterface{
     static String carType = "sedan";
     static String transmission = "auto";
 
@@ -10,5 +10,10 @@ public class Car extends Vehicle{
 
     public void move(){
         System.out.println("Car move");
+    }
+
+    @Override
+    public void buyNavigator() {
+        System.out.println("Yeah!! You bought navigator to your car");
     }
 }

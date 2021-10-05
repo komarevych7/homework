@@ -1,6 +1,6 @@
 package homework10;
 
-public class RoadBicycle extends Bicycle {
+public class RoadBicycle extends Bicycle implements BicycleInterface{
     private int rudderDepth;
 
     public int getRudderDepth() {
@@ -18,5 +18,13 @@ public class RoadBicycle extends Bicycle {
 
     public void changeGear(){
         System.out.println("gear changed");
+    }
+
+    @Override
+    public void buyBike() {
+        System.out.println("Yeah! you bought road bike");
+    }
+    public void buyBike(int count) {
+        System.out.println("Yeah! you bought " + count + " road bikes");
     }
 }
